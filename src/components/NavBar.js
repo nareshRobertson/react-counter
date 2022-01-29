@@ -1,6 +1,7 @@
 import React from 'react'
 
-const NavBar = ({totalCounters}) => {
+function NavBar({totalCounters}) {
+//const NavBar = ({totalCounters}) => {
     return (        <nav className="navbar navbar-light bg-light">
             <div className="navbar-brand">
                 <i className="fa fa-shopping-cart fa-lg m-2" />
